@@ -1,0 +1,19 @@
+{
+    "name": "andre/curso-doctrine-orm-alura",
+    "autoload": {
+        "psr-4": {
+            "Andre\\Doctrine\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "andremuro",
+            "email": "andrefelipe.muro@gmail.com"
+        }
+    ],
+    "require": {
+        "doctrine/orm": "^2.11",
+        "symfony/cache": "^6.0",
+        "doctrine/annotations": "^1.13"
+    }
+}
